@@ -1,0 +1,3 @@
+1. Shell supports a different type of variable called an array variable.
+2. scalar variables :- A shell variable is capable enough to hold a single value. These variables are called scalar variables.
+3. 

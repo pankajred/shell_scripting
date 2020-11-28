@@ -1,0 +1,31 @@
+1. Variables is nothing more than a pointer to the actual data.
+
+2. Variables name can contain only
+Letters (a to z) (A to Z)
+Numbers (0 to 9)
+
+3. By convention, Unix shell variables will have their names in UPPERCASE.
+
+4. !, *, or - is that these characters have a special meaning for the shell.
+
+5. 2_VAR is not valid variable.
+
+1. Read and write Variables
+2. Readonly Variables
+3. Unset Variables
+# cannot use the unset command to unset variables that are marked readonly.
+
+
+Variables Types: -
+1. Local Variables
+Variable that is present within the current instance of the shell
+They are set at the command prompt.
+
+2. Environment Variables
+An environment variable is available to any child process of the shell
+env is a command to know all environment variable
+example:- echo $SHELL
+
+3. Shell Variables
+A shell variable is a special variable that is set by the shell and is required by the shell in order to function correctly.
+Some of these variables are environment variables whereas others are local variables.
